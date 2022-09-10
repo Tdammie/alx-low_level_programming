@@ -1,1 +1,1 @@
-0x01. C - Variables, if, else, while. 
+0x01 C variebles, if, else, if else and while
