@@ -3,30 +3,30 @@
 #include <stdio.h>
 
 /**
- * main - Prints random to varaible
+ * main - Print random variable
  *
- * Return: Always (Successful)
+ * Return: Always 0
  */
 int main(void)
 {
 	int n;
-	char last[] = "last digit of";
+	int l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%d is %d and is", last, n, n% 10);
-	if (n % 10 > 5)
+	l = n % 10;
+
+	if (l > 5)
 	{
-		printf("greater than 5\n");
+		printf("Last digit of %d is %d and is greater than 5\n", l);
 	}
-	else if (n % 10 == 0)
+	else if (l == 0)
 	{
-		printf("0\n");
+		printf("Last digit of %d is %d is 0\n", n, l);
 	}
 	else
 	{
-		printf("less that 6 and not )\n");
+		printf("Last digit of %d is less than 6 and not 0\n", n, l);
 	}
-	return (0);
-
 }
+return (0);
