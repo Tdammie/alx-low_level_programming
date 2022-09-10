@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Print alphabet in lowercase and uppercase
+ * main - alphabet in lowercase and uppercase
  *
  * Return: Always 0
  */
+
 int main(void)
 {
 	char lower_case;
@@ -21,7 +22,7 @@ int main(void)
 		putchar(upper_case);
 	}
 
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
