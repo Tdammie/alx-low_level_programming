@@ -9,11 +9,16 @@
 int main(void)
 
 {
-	char alphabet;
+	char alpha = 'a';
 
-	for (alphabet = 'a'; alphabet <= 'z''alphabet++)
-		putchar(alphabet);
-		putchar('\n');
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
+	}
 
-	return (0)
+	putchar('\n')
+
+
+	return (0);
 }
