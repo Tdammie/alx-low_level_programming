@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Ptint alphabet in lowercase and uppercase
+ * main - Print alphabet in lowercase and uppercase
  *
  * Return: Always 0
  */
 int main(void)
 {
-	char lower_case
-	char upper_case
+	char lower_case;
+	char upper_case;
 
 	for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
 	{
