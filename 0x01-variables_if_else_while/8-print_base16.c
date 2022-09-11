@@ -8,7 +8,7 @@
  * Return: ALways 0
  */
 
-int main(0)
+int main(void)
 {
 	char c;
 
