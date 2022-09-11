@@ -3,20 +3,19 @@
 #include <time.h>
 
 /**
- * main - Single numbers in base from 0 to 9
+ * main - Prints number from 0 to 9
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-	char n;
+	int n;
 
 	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 	}
-
 	putchar('\n');
 
 	return (0);
